@@ -1,10 +1,14 @@
 import React from 'react'
 import { Button, Icon } from 'antd'
-import QueueAnim from 'rc-queue-anim'
 import TweenOne, { TweenOneGroup } from 'rc-tween-one'
 import BannerAnim, { Element } from 'rc-banner-anim'
+import Text from 'brainup-components/lib/text'
+
+import BannerTitle from './title'
+
 import 'rc-banner-anim/assets/index.css'
-import bgImage from '../../../src/resources/images/option3.jpg'
+import bgImage from '../../resources/images/option3.jpg'
+import brandNameImage from '../../resources/brand_name_blue.svg'
 
 import styles from './styles.module.scss'
 
@@ -23,27 +27,14 @@ const Banner = props => (
             className={styles.bannerBackground}
             style={{ backgroundImage: `url('${bgImage}')` }}
           />
-          <div className={styles.bannerPage}>
-            <QueueAnim
-              type={['bottom', 'top']}
-              delay={200}
-              key="text"
-              className={styles.bannerTextWrapper}
-              id="wrapperBlock_0"
-            >
-              <div key="logo" className={styles.bannerTitle}>
-                {/* <img src={title.children} width="100%" alt="img" /> */}
-                <span className={styles.titleBlue}>Brain</span>
-                <span className={styles.titleYellow}>Up</span>
-              </div>
-              <div key="content" className={styles.bannerContent}>
-                Evolui o teu cérebro!
-              </div>
-              <Button type="ghost" key="button" className={styles.bannerButton}>
-                Saiba mais
-              </Button>
-            </QueueAnim>
-          </div>
+          <BannerTitle
+            title={<img src={brandNameImage} alt="Brainup" />}
+            subtitle={<Text type="displayLarge">Evoluí o teu cérebro!</Text>}
+          >
+            <Button type="primary">
+              <Text color="reversed">Conheça nossos serviços</Text>
+            </Button>
+          </BannerTitle>
         </Element>
       </BannerAnim>
     </TweenOneGroup>
