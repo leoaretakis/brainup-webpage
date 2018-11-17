@@ -1,67 +1,95 @@
-.container {
-  height: 690px;
-  overflow: hidden;
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-}
-
-.content {
-  overflow: hidden;
-  height: 100%;
-  padding: 64px 24px;
-  max-width: 1200px;
-  position: relative;
-  margin: auto;
-  will-change: transform;
-}
-
-.titleWrapper {
-  margin: 0 auto 48px;
+.title {
   text-align: center;
-
-  h1 {
-    // font-size: 32px;
-    // color: @text-color;
-    margin-bottom: 16px;
-  }
+  margin: var(--space-more) 0;
 }
 
-.blockWrapper {
-  position: relative;
-  height: 100%;
-  overflow: hidden;
-  top: 25%;
-  padding: 20px 0;
+.serviceRow {
+  margin-bottom: var(--space-default);
 }
 
-.block {
-  padding: 0 4%;
-  display: inline-block;
-  text-align: center;
-  height: 200px;
-  margin-bottom: 48px;
-
-  & :global(.queue-anim-leaving) {
-    position: relative !important;
-  }
-
-  h3 {
-    line-height: 32px;
-    margin: 10px auto;
-  }
+.image {
+  width: calc(100% - 2 * var(--space-huge));
+  margin-left: var(--space-huge);
+  margin-right: var(--space-huge);
 }
 
-.icon {
-  width: 100px;
-  height: 100px;
-  margin: auto;
-  display: flex;
-  align-items: center;
+.sectionTitle,
+.sectionText {
+  margin: 0 var(--space-more);
 }
 
-@media screen and (max-width: 767px) {
-  .container {
-    height: 880px;
-  }
+.sectionTitle {
+  margin-top: var(--space-default);
 }
+
+.sectionText {
+  margin-top: var(--space-default);
+}
+
+// .container {
+//   height: 690px;
+//   overflow: hidden;
+//   width: 100%;
+//   position: relative;
+//   overflow: hidden;
+// }
+
+// .content {
+//   overflow: hidden;
+//   height: 100%;
+//   padding: 64px 24px;
+//   max-width: 1200px;
+//   position: relative;
+//   margin: auto;
+//   will-change: transform;
+// }
+
+// .titleWrapper {
+//   margin: 0 auto 48px;
+//   text-align: center;
+
+//   h1 {
+//     // font-size: 32px;
+//     // color: @text-color;
+//     margin-bottom: 16px;
+//   }
+// }
+
+// .blockWrapper {
+//   position: relative;
+//   height: 100%;
+//   overflow: hidden;
+//   top: 25%;
+//   padding: 20px 0;
+// }
+
+// .block {
+//   padding: 0 4%;
+//   display: inline-block;
+//   text-align: center;
+//   height: 200px;
+//   margin-bottom: 48px;
+
+//   & :global(.queue-anim-leaving) {
+//     position: relative !important;
+//   }
+
+//   h3 {
+//     line-height: 32px;
+//     margin: 10px auto;
+//   }
+// }
+
+// .icon {
+//   width: 100px;
+//   height: 100px;
+//   margin: auto;
+//   display: flex;
+//   align-items: center;
+// }
+
+// @media screen and (max-width: 767px) {
+//   .container {
+//     height: 880px;
+//   }
+// }
