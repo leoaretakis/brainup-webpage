@@ -8,21 +8,27 @@ import styles from './styles.module.scss'
 const imageSources = [
   {
     icon: 'https://zos.alipayobjects.com/rmsportal/WBnVOjtIlGWbzyQivuyq.png',
-    title: 'One-stop service access',
+    title: 'Salas de estudo - 1º ao 9º anos',
     content:
-      'Four times the efficiency of payment, settlement, and accounting access products'
+      'Permite auxiliar os alunos na elaboração dos trabalhos de casa, na resolução de fichas formativas, no esclarecimento de dúvidas e na preparação para a realização dos testes, das provas de aferição e dos exames nacionais.'
   },
   {
     icon: 'https://zos.alipayobjects.com/rmsportal/YPMsLQuCEXtuEkmXTTdk.png',
-    title: 'One-stop risk monitoring',
+    title: 'Explicações individuais - 1º ao 12º anos',
     content:
-      'Prior risk control and quality control capabilities in all requirements configuration'
+      'Permitem um acompanhamento mais detalhado e personalizado das disciplinas, visando o desenvolvimento de aprendizagens, a melhoria/recuperação das notas e a preparação para a realização das provas de aferição e dos exames nacionais.'
   },
   {
     icon: 'https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png',
-    title: 'One-stop data operation',
+    title: 'Aulas de línguas para adultos',
     content:
-      'Precipitation product access efficiency and operational small two work efficiency data'
+      'Destinam-se a adultos e visam a aquisição e a consolidação de conhecimentos e competências linguísticas - Português, Inglês e Francês. Disponibilizamos aulas de Português a cidadãos estrangeiros.'
+  },
+  {
+    icon: 'https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png',
+    title: 'Aulas de música - Viola/guitarra',
+    content:
+      'De forma a reforçar as aprendizagens dos alunos e a proporcionar-lhes um tempo de lazer, o centro disponibiliza um professor para aulas de música (viola/guitarra). A marcação das aulas é feita semanalmente, consoante a disponibilidade do professor.'
   }
 ]
 
@@ -32,7 +38,7 @@ class ServicesSection extends React.PureComponent {
       <div className={styles.container} {...this.props}>
         <div className={styles.content}>
           <div className={styles.titleWrapper}>
-            <h1>Pricing</h1>
+            <h1>Serviços</h1>
           </div>
           <OverPack playScale={0.3}>
             <QueueAnim

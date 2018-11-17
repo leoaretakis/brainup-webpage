@@ -3,8 +3,8 @@ import QueueAnim from 'rc-queue-anim'
 
 import styles from './styles.module.scss'
 
-const BannerTitle = ({ title, subtitle, children }) => (
-  <div className={styles.container}>
+const BannerTitle = ({ title, subtitle, children, ...props }) => (
+  <div className={styles.container} {...props}>
     <QueueAnim
       type={['bottom', 'top']}
       delay={500}

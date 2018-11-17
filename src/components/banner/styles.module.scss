@@ -1,11 +1,6 @@
 .container {
   width: 100%;
   height: calc(100vh - var(--header-height));
-
-  // & :global(.queue-anim-leaving) {
-  //   position: relative !important;
-  //   width: auto;
-  // }
 }
 
 .bannerContainer {
@@ -14,19 +9,18 @@
 }
 
 .bannerElement {
-  // height: 100%;
-  // color: #fff;
-  // position: relative;
   overflow: hidden;
 }
 
 .bannerBackground {
   position: absolute;
   background-size: cover;
-  background-attachment: fixed;
+  // background-attachment: fixed;
   // background-position: center;
   height: 100%;
-  width: 100%;
+  width: calc(100% + 30px);
+
+  left: -15px;
 }
 
 .bannerIcon {
@@ -38,28 +32,3 @@
   margin-left: -12px;
   color: var(--template-text-color-light);
 }
-
-// :global(.banner-anim-thumb-default) {
-//   span {
-//     width: 10px;
-//     height: 10px;
-//     border-radius: 10px;
-//     background: rgba(255, 255, 255, 0.5);
-//   }
-// }
-
-// @media screen and (max-width: 414px) {
-//   .bannerTextWrapper {
-//     width: 90%;
-//     left: 0;
-//     margin: auto;
-//     padding: 0;
-//     text-align: center;
-//     display: block;
-
-//     .logo {
-//       width: 90%;
-//       left: 0;
-//     }
-//   }
-// }
