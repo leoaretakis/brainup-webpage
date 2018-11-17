@@ -20,11 +20,11 @@ const followParallax = {
   minMove: 0.1,
   data: [
     {
-      id: `bg1`,
+      id: 'background',
       value: 15,
       type: 'x'
     },
-    { id: `wrapperBlock1`, value: -15, type: 'x' }
+    { id: 'content', value: -15, type: 'x' }
   ]
 }
 
@@ -48,18 +48,30 @@ const Banner = props => (
           followParallax={followParallax}
         >
           <Element.BgElement
-            id="bg1"
+            id="background"
             key="bg1"
             className={styles.bannerBackground}
             style={{ backgroundImage: `url('${bgImage1}')` }}
           />
           <BannerTitle
-            id="wrapperBlock1"
-            title={<img id="title" src={brandNameImage} alt="Brainup" />}
+            id="content"
+            title={
+              <React.Fragment>
+                <img src={brandNameImage} alt="Brainup" />
+                <Text type="heading" className={styles.subtitle}>
+                  Centro de estudo
+                </Text>
+              </React.Fragment>
+            }
             subtitle={
-              <Text id="content" type="displayLarge">
-                Evoluí o teu cérebro!
-              </Text>
+              <React.Fragment>
+                <Text type="displaySmall" className={styles.marketingText}>
+                  Salas de estudo, explicações individuais, e mais!
+                </Text>
+                <Text type="displaySmall" className={styles.marketingText}>
+                  Evoluí o teu cérebro connosco!
+                </Text>
+              </React.Fragment>
             }
           >
             <Link to="services-section">

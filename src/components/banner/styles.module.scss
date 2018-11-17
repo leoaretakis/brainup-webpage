@@ -17,10 +17,26 @@
   background-size: cover;
   // background-attachment: fixed;
   // background-position: center;
+
+  // background-color: var(--color-yellow-900);
+  background-color: var(--color-grey-900);
+  background-blend-mode: screen;
+
   height: 100%;
   width: calc(100% + 30px);
 
   left: -15px;
+}
+
+.subtitle {
+  text-align: right;
+  text-transform: uppercase;
+  margin-top: var(--space-tiny);
+  margin-bottom: var(--space-small);
+}
+
+.marketingText {
+  font-style: italic;
 }
 
 .bannerIcon {
