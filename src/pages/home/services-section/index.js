@@ -44,7 +44,7 @@ const ServicesSection = props => {
           componentProps={{ md: 6, xs: 12 }}
         >
           <Text key="a" type="displayMedium" className={styles.sectionTitle}>
-            Salas de estudo - 1º ao 9º anos
+            Salas de estudo - 1º ao 9º
           </Text>
           <Text key="b" className={styles.sectionText}>
             Permite auxiliar os alunos na elaboração dos trabalhos de casa, na
@@ -65,7 +65,7 @@ const ServicesSection = props => {
           componentProps={{ md: 6, xs: 12 }}
         >
           <Text key="c" type="displayMedium" className={styles.sectionTitle}>
-            Explicações individuais - 1º ao 12º anos
+            Explicações individuais - 1º ao 12º
           </Text>
           <Text key="d" className={styles.sectionText}>
             Permitem um acompanhamento mais detalhado e personalizado das
