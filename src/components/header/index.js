@@ -11,9 +11,8 @@ import styles from './styles.module.scss'
 const menuItems = [
   { name: 'item0', a: { children: 'Home', href: '' } },
   { name: 'item1', a: { children: 'Serviços', to: 'services-section' } },
-  { name: 'item2', a: { children: 'O nosso espaço', href: '' } },
-  { name: 'item3', a: { children: 'Sobre nós', href: '' } },
-  { name: 'item4', a: { children: 'Contactos', href: '' } }
+  { name: 'item2', a: { children: 'Sobre nós', to: 'about-us' } },
+  { name: 'item3', a: { children: 'Contactos', href: '' } }
 ]
 
 const Header = () => (
