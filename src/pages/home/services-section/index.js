@@ -1,7 +1,6 @@
 import React from 'react'
 import QueueAnim from 'rc-queue-anim'
 import TweenOne from 'rc-tween-one'
-// import { Row, Col } from 'antd'
 import { Grid, Row, Col } from 'react-flexbox-grid'
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack'
 import Text from 'brainup-components/lib/text'

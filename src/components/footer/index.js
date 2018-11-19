@@ -66,7 +66,7 @@ class Footer extends React.Component {
               </Text>
               <div className={styles.sectionOptions}>
                 <Text color="reversed">Segunda a Sexta</Text>
-                <Text color="reversed">9h - 13h</Text>
+                <Text color="reversed">10h - 13h</Text>
                 <Text color="reversed">14h30 - 19h30</Text>
                 <Text color="reversed">Sábado</Text>
                 <Text color="reversed">10h - 13h</Text>
@@ -99,9 +99,8 @@ class Footer extends React.Component {
             className={styles.copyrightSection}
           >
             <Text color="secondary">
-              ©2018 by{' '}
-              <a href="mailto:leoaretakis@gmail.com">Leonardo Aretakis</a> All
-              Rights Reserved
+              ©2018 by <a href="mailto:brainup.amadora@gmail.com">Brainup</a>{' '}
+              All Rights Reserved
             </Text>
           </TweenOne>
         </OverPack>

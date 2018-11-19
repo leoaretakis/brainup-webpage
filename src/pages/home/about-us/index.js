@@ -2,6 +2,9 @@ import React from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid'
 import Text from 'brainup-components/lib/text'
 import { Button } from 'antd'
+import QueueAnim from 'rc-queue-anim'
+import OverPack from 'rc-scroll-anim/lib/ScrollOverPack'
+import TweenOne from 'rc-tween-one'
 
 import styles from './styles.module.scss'
 
@@ -14,26 +17,45 @@ const AboutUs = props => (
     <Row>
       <Col md={6} xs={12}>
         <div className={styles.missonTextContainer}>
-          <Text type="heading" className={styles.missonText}>
-            O BrainUp é um centro de estudo dedicado aos alunos dos 1º, 2º e 3º
-            ciclos.
-          </Text>
-          <Text type="heading" className={styles.missonText}>
-            O centro tem por missão proporcionar o desenvolvimento das
-            capacidades dos alunos referentes ao crescimento académico, pessoal
-            e social, incutindo-lhes o apreço pelo conhecimento e o sentido de
-            exigência e responsabilidade.
-          </Text>
-          <Text type="heading" className={styles.missonText}>
-            Dispomos dos serviços de sala de estudo, explicações individuais
-            e/ou em grupo, atividades pedagógicas e atividades
-            extracurriculares.
-          </Text>
+          <OverPack playScale={0.3}>
+            <QueueAnim delay={400} type="bottom">
+              <Text type="heading" className={styles.missonText} key="a">
+                O BrainUp é um centro de estudo dedicado aos alunos dos 1º, 2º e
+                3º ciclos e do secundário.
+              </Text>
+              <Text type="heading" className={styles.missonText} key="b">
+                O centro tem por missão proporcionar o desenvolvimento das
+                capacidades dos alunos referentes ao crescimento académico,
+                pessoal e social, incutindo-lhes o apreço pelo conhecimento e o
+                sentido de exigência e responsabilidade.
+              </Text>
+              <Text type="heading" className={styles.missonText} key="c">
+                Dispomos dos serviços de sala de estudo, explicações individuais
+                e/ou em grupo, atividades pedagógicas e atividades
+                extracurriculares.
+              </Text>
+            </QueueAnim>
+          </OverPack>
         </div>
       </Col>
       <Col md={6} xs={12}>
-        <Row middle="md" className={styles.photosContainer}>
-          <Col md={6}>
+        <OverPack
+          playScale={0.3}
+          component={Row}
+          className={styles.photosContainer}
+        >
+          <TweenOne
+            key="img1"
+            animation={{
+              x: '=30',
+              opacity: 0,
+              type: 'from',
+              ease: 'easeOutQuad'
+            }}
+            resetStyle
+            component={Col}
+            componentProps={{ md: 6, xs: 12 }}
+          >
             <iframe
               title="photo1"
               className={styles.fbPhotoIframe}
@@ -45,8 +67,19 @@ const AboutUs = props => (
               allowtransparency="true"
               allow="encrypted-media"
             />
-          </Col>
-          <Col md={6}>
+          </TweenOne>
+          <TweenOne
+            key="img2"
+            animation={{
+              x: '=30',
+              opacity: 0,
+              type: 'from',
+              ease: 'easeOutQuad'
+            }}
+            resetStyle
+            component={Col}
+            componentProps={{ md: 6, xs: 12 }}
+          >
             <iframe
               title="photo2"
               className={styles.fbPhotoIframe}
@@ -58,8 +91,8 @@ const AboutUs = props => (
               allowtransparency="true"
               allow="encrypted-media"
             />
-          </Col>
-        </Row>
+          </TweenOne>
+        </OverPack>
         <Row center="md">
           <Button>Ver mais fotos</Button>
         </Row>
