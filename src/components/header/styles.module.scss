@@ -6,6 +6,7 @@
 .container {
   background: var(--color-brand-900);
   display: flex;
+  flex-wrap: wrap;
   padding: 0 var(--space-default);
 }
 
@@ -18,6 +19,7 @@
 .menu {
   background: var(--color-brand-900) !important;
   line-height: calc(var(--header-height) - 2px) !important;
+  float: right;
 }
 
 .menuItem {
@@ -42,5 +44,97 @@
 
   &:hover {
     color: var(--menu-active-color) !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container.menuOpen {
+    height: auto;
+
+    .mobileMenu {
+      em {
+        &:nth-child(1) {
+          transform: translateY(6px) rotate(45deg);
+        }
+        &:nth-child(2) {
+          opacity: 0;
+        }
+        &:nth-child(3) {
+          transform: translateY(-6px) rotate(-45deg);
+        }
+      }
+    }
+
+    .menuWrapper {
+      opacity: 1;
+      pointer-events: auto;
+      padding: 0;
+    }
+  }
+
+  .mobileMenu {
+    width: 16px;
+    height: 14px;
+    cursor: pointer;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    z-index: 100;
+    em {
+      display: block;
+      height: 2px;
+      background: #fff;
+      margin-top: var(--space-tiny);
+      transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
+    :first-child {
+      margin-top: 0;
+    }
+  }
+
+  .menuWrapper {
+    transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out !important;
+    // & li {
+    //   padding: 0 24px;
+    //   &.ant-menu-submenu {
+    //     padding: 0;
+    //   }
+    // }
+    // & .ant-menu-submenu .ant-menu-sub {
+    //   padding: 0 24px;
+    // }
+  }
+
+  .menu {
+    height: auto;
+    overflow: hidden;
+
+    background: var(--color-brand-900);
+  }
+
+  .menuItem {
+    // height: 24px !important;
+
+    &:hover {
+      border-bottom: 2px solid var(--menu-active-color) !important;
+    }
+
+    &:global(.ant-menu-item-selected) {
+      border-bottom: 2px solid var(--menu-active-color) !important;
+      background-color: var(--color-brand-900) !important;
+
+      .menuLink {
+        color: var(--menu-active-color) !important;
+      }
+    }
+  }
+
+  .menuLink {
+    line-height: calc(var(--space-big) - 2px) !important;
+    color: var(--color-white) !important;
+
+    &:hover {
+      color: var(--menu-active-color) !important;
+    }
   }
 }
