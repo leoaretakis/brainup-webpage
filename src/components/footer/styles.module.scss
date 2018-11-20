@@ -20,3 +20,13 @@
   padding: var(--space-default);
   text-align: right;
 }
+
+@media screen and (max-width: 767px) {
+  .section {
+    margin-bottom: var(--space-default);
+  }
+
+  .sectionsContainer {
+    padding: var(--space-more);
+  }
+}
