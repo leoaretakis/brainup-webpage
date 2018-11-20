@@ -94,15 +94,6 @@
 
   .menuWrapper {
     transition: opacity 0.3s ease-in-out, height 0.3s ease-in-out !important;
-    // & li {
-    //   padding: 0 24px;
-    //   &.ant-menu-submenu {
-    //     padding: 0;
-    //   }
-    // }
-    // & .ant-menu-submenu .ant-menu-sub {
-    //   padding: 0 24px;
-    // }
   }
 
   .menu {
@@ -113,8 +104,6 @@
   }
 
   .menuItem {
-    // height: 24px !important;
-
     &:hover {
       border-bottom: 2px solid var(--menu-active-color) !important;
     }

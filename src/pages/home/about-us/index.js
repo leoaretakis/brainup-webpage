@@ -93,7 +93,7 @@ const AboutUs = props => (
             />
           </TweenOne>
         </OverPack>
-        <Row center="md">
+        <Row center="md" className={styles.photosButton}>
           <Button>Ver mais fotos</Button>
         </Row>
       </Col>
