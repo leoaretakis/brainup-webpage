@@ -1,0 +1,25 @@
+.container {
+  top: 25%;
+}
+
+.animationWrapper {
+  margin-left: var(--space-big);
+}
+
+.title {
+  max-width: 400px;
+
+  * {
+    max-width: 100%;
+  }
+}
+
+.subtitle {
+  margin: auto auto var(--space-more);
+}
+
+@media screen and (max-width: 767px) {
+  .animationWrapper {
+    margin: 0 var(--space-default);
+  }
+}

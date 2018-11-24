@@ -1,0 +1,32 @@
+.container {
+  background: var(--color-brand-900);
+  overflow: hidden;
+  position: relative;
+  min-height: 300px;
+}
+
+.sectionsContainer {
+  padding: var(--space-huge) var(--space-more);
+}
+.section {
+  padding: 0 32px;
+}
+
+.sectionTitle {
+  margin-bottom: var(--space-default);
+}
+
+.copyrightSection {
+  padding: var(--space-default);
+  text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+  .section {
+    margin-bottom: var(--space-default);
+  }
+
+  .sectionsContainer {
+    padding: var(--space-more);
+  }
+}

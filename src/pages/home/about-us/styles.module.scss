@@ -1,0 +1,35 @@
+.container {
+  padding-top: var(--space-huge);
+  padding-bottom: var(--space-huge);
+
+  background-color: var(--color-brand-50);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: var(--space-more);
+}
+
+.missonTextContainer {
+  margin: var(--space-huge) var(--space-default);
+}
+
+.missonText {
+  text-align: center;
+  margin-bottom: var(--space-small);
+}
+
+.photosContainer {
+  margin-top: var(--space-huge);
+  margin-bottom: var(--space-default);
+}
+
+.fbPhotoIframe {
+  width: 100%;
+  border: none;
+  overflow: hidden;
+}
+
+.photosButton {
+  justify-content: center;
+}

@@ -1,0 +1,30 @@
+.title {
+  text-align: center;
+  margin: var(--space-huge) 0;
+}
+
+.serviceRow {
+  margin-bottom: var(--space-default);
+}
+
+.image {
+  width: calc(100% - 2 * var(--space-huge));
+  margin-left: var(--space-huge);
+  margin-right: var(--space-huge);
+
+  max-height: 250px;
+}
+
+.sectionTitle,
+.sectionText {
+  margin: 0 var(--space-more);
+}
+
+.sectionTitle {
+  margin-top: var(--space-default);
+}
+
+.sectionText {
+  margin-top: var(--space-default);
+  text-align: justify;
+}

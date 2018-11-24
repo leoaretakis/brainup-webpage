@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+  height: calc(100vh - var(--header-height));
+}
+
+.bannerContainer {
+  height: 100%;
+  position: relative;
+}
+
+.bannerElement {
+  overflow: hidden;
+}
+
+.bannerBackground {
+  position: absolute;
+  background-size: cover;
+  // background-attachment: fixed;
+  // background-position: center;
+
+  // background-color: var(--color-yellow-900);
+  background-color: var(--color-grey-900);
+  background-blend-mode: screen;
+
+  height: 100%;
+  width: calc(100% + 30px);
+
+  left: -15px;
+}
+
+.subtitle {
+  text-align: right;
+  text-transform: uppercase;
+  margin-top: var(--space-tiny);
+  margin-bottom: var(--space-small);
+}
+
+.marketingText {
+  font-style: italic;
+}
+
+.bannerIcon {
+  bottom: 20px;
+  font-size: 24px;
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  margin-left: -12px;
+  color: var(--template-text-color-light);
+}
