@@ -66,7 +66,7 @@ const Banner = props => (
             subtitle={
               <React.Fragment>
                 <Text type="displaySmall" className={styles.marketingText}>
-                  Salas de estudo, explicações individuais, e mais!
+                  Sala de estudo, explicações individuais, e mais!
                 </Text>
                 <Text type="displaySmall" className={styles.marketingText}>
                   Evoluí o teu cérebro connosco!
