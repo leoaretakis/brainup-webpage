@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid'
 import Text from 'brainup-components/lib/text'
-import { Button } from 'antd'
+import { Button, Link } from 'antd'
 import QueueAnim from 'rc-queue-anim'
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack'
 import TweenOne from 'rc-tween-one'
@@ -94,7 +94,13 @@ const AboutUs = props => (
           </TweenOne>
         </OverPack>
         <Row center="md" className={styles.photosButton}>
-          <Button>Ver mais fotos</Button>
+          <a
+            href="https://www.facebook.com/pg/brainup.amadora/photos"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button>Ver mais fotos</Button>
+          </a>
         </Row>
       </Col>
     </Row>
