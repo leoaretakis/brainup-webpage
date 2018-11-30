@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import LandingPage from './pages/landing'
+import LandingPage from '../pages/landing'
 
 import 'brainup-components/src/styles/main.scss'
 import 'antd/dist/antd.css'
