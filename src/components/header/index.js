@@ -3,6 +3,7 @@ import { findDOMNode } from 'react-dom'
 import TweenOne from 'rc-tween-one'
 import { Link } from 'rc-scroll-anim'
 import Text from 'brainup-components/lib/text'
+import Button from 'brainup-components/lib/button'
 import Menu from 'brainup-components/lib/menu'
 import classNames from 'classnames'
 import { Col } from 'react-flexbox-grid'
@@ -89,6 +90,9 @@ class Header extends Component {
                 </Link>
               </Menu.Item>
             ))}
+            <Menu.Item name="button">
+              <Button ghost>Log in</Button>
+            </Menu.Item>
           </Menu>
         </TweenOne>
       </TweenOne>
