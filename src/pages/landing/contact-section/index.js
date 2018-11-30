@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid'
 import Text from 'brainup-components/lib/text'
-import { Icon } from 'antd'
+import Icon from 'brainup-components/lib/icon'
 import QueueAnim from 'rc-queue-anim'
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack'
 import styles from './styles.module.scss'
@@ -38,6 +38,18 @@ const ContactSection = props => (
             >
               <Icon type="mail" className={styles.contactIcon} />
               brainup.amadora@gmail.com
+            </Text>
+            <Text
+              type="heading"
+              className={styles.contactText}
+              tag="a"
+              key="e"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="http://www.facebook.com/brainup.amadora/"
+            >
+              <Icon type="facebook" className={styles.contactIcon} />
+              brainup.amadora
             </Text>
           </QueueAnim>
         </OverPack>

@@ -9,7 +9,7 @@ import ContactSection from './contact-section'
 
 const Mobile = props => <MediaQuery {...props} maxWidth={767} />
 
-const Home = () => {
+const LandingPage = () => {
   return (
     <div>
       <Mobile>{isMobile => <Header isMobile={isMobile} />}</Mobile>
@@ -22,4 +22,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default LandingPage

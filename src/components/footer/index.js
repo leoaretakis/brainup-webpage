@@ -4,6 +4,7 @@ import OverPack from 'rc-scroll-anim/lib/ScrollOverPack'
 import QueueAnim from 'rc-queue-anim'
 import { Row, Col } from 'react-flexbox-grid'
 import Text from 'brainup-components/lib/text'
+import Icon from 'brainup-components/lib/icon'
 
 import styles from './styles.module.scss'
 
@@ -90,6 +91,15 @@ class Footer extends React.Component {
               <div className={styles.sectionOptions}>
                 <Text color="reversed">brainup.amadora@gmail.com</Text>
                 <Text color="reversed">927 975 655</Text>
+                <Text
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="http://www.facebook.com/brainup.amadora/"
+                  tag="a"
+                  color="reversed"
+                >
+                  <Icon type="facebook" theme="filled" /> brainup.amadora
+                </Text>
               </div>
             </Col>
           </QueueAnim>

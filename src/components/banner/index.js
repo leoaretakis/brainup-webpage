@@ -1,9 +1,9 @@
 import React from 'react'
-import { Icon } from 'antd'
 import TweenOne, { TweenOneGroup } from 'rc-tween-one'
 import BannerAnim, { Element } from 'rc-banner-anim'
 import Text from 'brainup-components/lib/text'
 import Button from 'brainup-components/lib/button'
+import Icon from 'brainup-components/lib/icon'
 import { Link } from 'rc-scroll-anim'
 
 import BannerTitle from './title'
