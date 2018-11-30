@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { findDOMNode } from 'react-dom'
 import TweenOne from 'rc-tween-one'
-import { Menu } from 'antd'
 import { Link } from 'rc-scroll-anim'
 import Text from 'brainup-components/lib/text'
+import Menu from 'brainup-components/lib/menu'
 import classNames from 'classnames'
 import { Col } from 'react-flexbox-grid'
 

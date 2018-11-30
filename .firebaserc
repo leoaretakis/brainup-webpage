@@ -1,6 +1,8 @@
 {
   "projects": {
     "default": "brainup-77bfa",
-    "brainup-website-production": "brainup-77bfa"
+    "brainup-website-production": "brainup-77bfa",
+    "staging": "brainup-staging",
+    "production": "brainup-77bfa"
   }
 }
