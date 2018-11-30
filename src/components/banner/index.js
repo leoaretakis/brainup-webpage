@@ -77,7 +77,9 @@ const Banner = props => (
           >
             <Link to="services-section">
               <Button type="primary">
-                <Text color="reversed">Conheça nossos serviços</Text>
+                <Text tag="span" color="reversed">
+                  Conheça nossos serviços
+                </Text>
               </Button>
             </Link>
           </BannerTitle>
