@@ -1,0 +1,33 @@
+.container {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-position-x: var(--space-default);
+  background-repeat: no-repeat;
+}
+
+.formContainer {
+  width: 100%;
+  border-radius: var(--space-tiny);
+  padding: var(--space-big);
+}
+
+.logoImage {
+  max-height: 80px;
+  margin: var(--space-huge) var(--space-default);
+}
+.row {
+  height: 100%;
+}
+
+.cardContainer {
+  // display: flex;
+  // align-items: center;
+  // flex-direction: column;
+  height: 100%;
+  background-color: var(--color-white);
+}
+
+.errorAlert {
+  margin-bottom: var(--space-big) !important;
+}
