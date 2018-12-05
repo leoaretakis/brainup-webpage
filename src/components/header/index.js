@@ -2,12 +2,14 @@ import React, { Component } from 'react'
 import { findDOMNode } from 'react-dom'
 import TweenOne from 'rc-tween-one'
 import { Link } from 'rc-scroll-anim'
+import { Link as RouterLink } from 'react-router-dom'
 import Text from 'brainup-components/lib/text'
 import Button from 'brainup-components/lib/button'
 import Menu from 'brainup-components/lib/menu'
 import classNames from 'classnames'
 import { Col } from 'react-flexbox-grid'
 
+import * as ROUTES from '../../constants/routes'
 import logoBrandImg from '../../resources/logo-brand-white.svg'
 
 import styles from './styles.module.scss'
@@ -91,7 +93,9 @@ class Header extends Component {
               </Menu.Item>
             ))}
             <Menu.Item name="button">
-              <Button ghost>Log in</Button>
+              <RouterLink to={ROUTES.SIGN_IN}>
+                <Button ghost>Log in</Button>
+              </RouterLink>
             </Menu.Item>
           </Menu>
         </TweenOne>

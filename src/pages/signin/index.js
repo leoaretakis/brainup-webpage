@@ -1,12 +1,12 @@
 import React from 'react'
 
 import RegisterPageTemplate from '../../components/register-page-template'
-import SignUpForm from '../../components/signup-form'
+import SignInForm from '../../components/signin-form'
 
-const SignUpPage = () => (
+const SignInPage = () => (
   <RegisterPageTemplate>
-    <SignUpForm />
+    <SignInForm />
   </RegisterPageTemplate>
 )
 
-export default SignUpPage
+export default SignInPage

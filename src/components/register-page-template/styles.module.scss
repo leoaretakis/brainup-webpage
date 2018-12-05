@@ -1,0 +1,27 @@
+.container,
+.row,
+.formColumn {
+  height: 100%;
+}
+
+.container {
+  background-size: cover;
+  background-position-x: var(--space-default);
+  background-repeat: no-repeat;
+}
+
+.formColumn {
+  background-color: var(--color-white);
+}
+
+.logoImage {
+  max-height: 80px;
+  max-width: calc(100% - 2 * var(--space-default));
+  margin: var(--space-huge) var(--space-default);
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    background-size: 0;
+  }
+}
