@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Form, Icon, Input, Checkbox, Alert } from 'antd'
 import Button from 'brainup-components/lib/button'
-import { withRouter } from 'react-router-dom'
+import { withRouter, Link } from 'react-router-dom'
 
 import { withFirebase } from '../firebase'
 import * as ROUTES from '../../constants/routes'
@@ -76,9 +76,12 @@ class SignInFormBase extends Component {
             valuePropName: 'checked',
             initialValue: true
           })(<Checkbox>Lembrar-me</Checkbox>)}
-          <a className={styles.forgotPasswordLink} href="">
+          <Link
+            className={styles.forgotPasswordLink}
+            to={ROUTES.PASSWORD_FORGET}
+          >
             Esqueceu a password?
-          </a>
+          </Link>
           <Button
             type="primary"
             htmlType="submit"

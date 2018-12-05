@@ -7,6 +7,9 @@ import LandingPage from '../pages/landing'
 import SignUpPage from '../pages/signup'
 import SignInPage from '../pages/signin'
 import SignOutPage from '../pages/signout'
+import ForgotPasswordPage from '../pages/forgot-password'
+import HomePage from '../pages/home'
+import AdminPage from '../pages/admin'
 
 import * as ROUTES from '../constants/routes'
 
@@ -20,10 +23,15 @@ const App = () => (
       <Route exact path={ROUTES.SIGN_UP} component={SignUpPage} />
       <Route exact path={ROUTES.SIGN_IN} component={SignInPage} />
       <Route exact path={ROUTES.SIGN_OUT} component={SignOutPage} />
-      {/*<Route exact path={ROUTES.PASSWORD_FORGET} component={PasswordForgetPage} />
-        <Route exact path={ROUTES.HOME} component={HomePage} />
-        <Route exact path={ROUTES.ACCOUNT} component={AccountPage} />
-        <Route exact path={ROUTES.ADMIN} component={AdminPage} /> */}
+      <Route
+        exact
+        path={ROUTES.PASSWORD_FORGET}
+        component={ForgotPasswordPage}
+      />
+      <Route exact path={ROUTES.HOME} component={HomePage} />
+      <Route exact path={ROUTES.ADMIN} component={AdminPage} />
+      {/*   <Route exact path={ROUTES.ACCOUNT} component={AccountPage} />
+       */}
     </>
   </BrowserRouter>
 )

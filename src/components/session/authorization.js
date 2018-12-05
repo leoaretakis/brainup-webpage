@@ -2,16 +2,19 @@ import React from 'react'
 import { withRouter } from 'react-router-dom'
 import { compose } from 'recompose'
 
-import { withFirebase } from '../Firebase'
+import { withFirebase } from '../firebase'
 import * as ROUTES from '../../constants/routes'
 import AuthUserContext from './context'
 
-const withAuthorization = condition => Component => {
+const withAuthorization = (
+  condition,
+  goTo = () => ROUTES.SIGN_IN
+) => Component => {
   class WithAuthorization extends React.Component {
     componentDidMount() {
       this.listener = this.props.firebase.auth.onAuthStateChanged(authUser => {
         if (!condition(authUser)) {
-          this.props.history.push(ROUTES.SIGN_IN)
+          this.props.history.push(goTo(authUser))
         }
       })
     }

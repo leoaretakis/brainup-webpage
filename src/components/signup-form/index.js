@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Form, Input, Checkbox, Alert } from 'antd'
+import { Form, Input, Alert } from 'antd'
 import Button from 'brainup-components/lib/button'
 import { withRouter } from 'react-router-dom'
 
@@ -127,7 +127,7 @@ class SignUpFormBase extends Component {
             })(<Input style={{ width: '100%' }} />)}
           </Form.Item>
 
-          <Form.Item {...tailFormItemLayout}>
+          {/* <Form.Item {...tailFormItemLayout}>
             {getFieldDecorator('agreement', {
               valuePropName: 'checked',
               rules: [
@@ -141,7 +141,7 @@ class SignUpFormBase extends Component {
                 Li e aceito a <a href="">política de proteção de dados</a>
               </Checkbox>
             )}
-          </Form.Item>
+          </Form.Item> */}
           <Form.Item {...tailFormItemLayout}>
             <Button type="primary" htmlType="submit">
               Registrar
