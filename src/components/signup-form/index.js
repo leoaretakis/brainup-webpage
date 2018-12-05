@@ -127,7 +127,7 @@ class SignUpFormBase extends Component {
             })(<Input style={{ width: '100%' }} />)}
           </Form.Item>
 
-          {/* <Form.Item {...tailFormItemLayout}>
+          {/* TODO: <Form.Item {...tailFormItemLayout}>
             {getFieldDecorator('agreement', {
               valuePropName: 'checked',
               rules: [

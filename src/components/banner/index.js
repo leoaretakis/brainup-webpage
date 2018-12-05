@@ -85,7 +85,7 @@ const Banner = props => (
           </BannerTitle>
         </Element>
 
-        {/* <Element prefixCls={styles.bannerElement} key="b">
+        {/* TODO: <Element prefixCls={styles.bannerElement} key="b">
           <Element.BgElement
             key="bg2"
             className={styles.bannerBackground}

@@ -30,7 +30,7 @@ const App = () => (
       />
       <Route exact path={ROUTES.HOME} component={HomePage} />
       <Route exact path={ROUTES.ADMIN} component={AdminPage} />
-      {/*   <Route exact path={ROUTES.ACCOUNT} component={AccountPage} />
+      {/*  TODO  <Route exact path={ROUTES.ACCOUNT} component={AccountPage} />
        */}
     </>
   </BrowserRouter>

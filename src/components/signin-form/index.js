@@ -89,7 +89,7 @@ class SignInFormBase extends Component {
           >
             Log in
           </Button>
-          {/* Ou <a href="">registre-se aqui!</a> */}
+          {/* TODO Ou <a href="">registre-se aqui!</a> */}
         </Form.Item>
       </Form>
     )
