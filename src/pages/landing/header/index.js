@@ -9,8 +9,8 @@ import Menu from 'brainup-components/lib/menu'
 import classNames from 'classnames'
 import { Col } from 'react-flexbox-grid'
 
-import * as ROUTES from '../../constants/routes'
-import logoBrandImg from '../../resources/logo-brand-white.svg'
+import * as ROUTES from '../../../constants/routes'
+import logoBrandImg from '../../../resources/logo-brand-white.svg'
 
 import styles from './styles.module.scss'
 

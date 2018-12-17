@@ -1,9 +1,9 @@
 import React from 'react'
 import MediaQuery from 'react-responsive'
-import Header from '../../components/header'
-import Banner from '../../components/banner'
+import Header from './header'
+import Banner from './banner'
 import ServicesSection from './services-section'
-import Footer from '../../components/footer'
+import Footer from './footer'
 import AboutUs from './about-us'
 import ContactSection from './contact-section'
 

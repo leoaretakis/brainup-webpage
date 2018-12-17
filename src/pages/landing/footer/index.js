@@ -8,7 +8,7 @@ import Icon from 'brainup-components/lib/icon'
 
 import styles from './styles.module.scss'
 
-import logo from '../../resources/logo-brand.svg'
+import logo from '../../../resources/logo-brand.svg'
 
 class Footer extends React.Component {
   render() {

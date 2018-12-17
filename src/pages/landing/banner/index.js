@@ -9,10 +9,10 @@ import { Link } from 'rc-scroll-anim'
 import BannerTitle from './title'
 
 import 'rc-banner-anim/assets/index.css'
-import bgImage1 from '../../resources/images/option3.jpg'
+import bgImage1 from '../../../resources/images/option3.jpg'
 // import bgImage2 from '../../resources/images/option7.jpg'
 // import bgImage3 from '../../resources/images/option2.jpg'
-import brandNameImage from '../../resources/brand_name_blue.svg'
+import brandNameImage from '../../../resources/brand_name_blue.svg'
 
 import styles from './styles.module.scss'
 
