@@ -27,3 +27,4 @@ yarn-error.log*
 .env.development
 
 /.firebase
+/src/locales/_build
