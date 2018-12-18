@@ -1,5 +1,6 @@
 import React from 'react'
 import { Icon, Input, AutoComplete } from 'antd'
+import { Trans } from '@lingui/macro'
 
 import styles from './styles.module.scss'
 
@@ -86,7 +87,7 @@ const SearchBox = () => (
             </a>
           </AutoComplete.Option>
         ])}
-      placeholder="Procurar"
+      placeholder={<Trans>Search</Trans>}
       optionLabelProp="value"
     >
       <Input suffix={<Icon type="search" />} />

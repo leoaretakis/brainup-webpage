@@ -1,18 +1,29 @@
 import React from 'react'
 import { Layout, Menu, Icon } from 'antd'
+import { Trans } from '@lingui/macro'
 
 import styles from './styles.module.scss'
 import logoBrandImg from '../../resources/logo-brand-white.svg'
 import Header from '../header'
 
 const menus = [
-  { key: '1', name: 'home', label: 'Home', icon: 'home' },
-  { key: '2', name: 'calendar', label: 'Calendário', icon: 'calendar' },
-  { key: '3', name: 'students', label: 'Alunos', icon: 'user' },
-  { key: '4', name: 'payments', label: 'Pagamentos', icon: 'euro' },
-  { key: '5', name: 'charts', label: 'Mês a mês', icon: 'bar-chart' },
-  { key: '6', name: 'tutors', label: 'Explicadores', icon: 'team' },
-  { key: '7', name: 'parents', label: 'Pais', icon: 'contacts' }
+  { key: '1', name: 'home', label: <Trans>Home</Trans>, icon: 'home' },
+  {
+    key: '2',
+    name: 'calendar',
+    label: <Trans>Calendar</Trans>,
+    icon: 'calendar'
+  },
+  { key: '3', name: 'students', label: <Trans>Students</Trans>, icon: 'user' },
+  { key: '4', name: 'payments', label: <Trans>Payments</Trans>, icon: 'euro' },
+  {
+    key: '5',
+    name: 'charts',
+    label: <Trans>Dashboard</Trans>,
+    icon: 'bar-chart'
+  },
+  { key: '6', name: 'tutors', label: <Trans>Tutors</Trans>, icon: 'team' },
+  { key: '7', name: 'parents', label: <Trans>Parents</Trans>, icon: 'contacts' }
 ]
 
 const LayoutBase = ({ children, page }) => (

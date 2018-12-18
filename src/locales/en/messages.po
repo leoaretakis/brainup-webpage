@@ -34,6 +34,10 @@ msgstr ""
 msgid "BrainUp is a tutoring center focused on students from the 1º, 2º e 3º cycles of primary school and high school (Portugal)."
 msgstr ""
 
+#: src/components/layout-base/index.js:14
+msgid "Calendar"
+msgstr ""
+
 #: src/pages/landing/contact-section/index.js:23
 msgid "Contact us"
 msgstr ""
@@ -43,27 +47,32 @@ msgstr ""
 msgid "Contacts"
 msgstr ""
 
+#: src/components/layout-base/index.js:22
+msgid "Dashboard"
+msgstr ""
+
 #: src/pages/landing/banner/index.js:74
 msgid "Evolve your brain with us!"
 msgstr ""
 
-#: src/pages/landing/services-section/index.js:134
+#: src/pages/landing/services-section/index.js:123
 msgid "Focused on adults, the classes aim to consolidate and aquire knowledge and competence on languages - Porguguese, English and French. We provide Porguese classes for foreigners."
 msgstr ""
 
-#: src/pages/landing/services-section/index.js:52
+#: src/pages/landing/services-section/index.js:51
 msgid "Help students elaborate their homework, solve training fiches, clarify questions and preparations for the tests, exams, and portuguese national exams."
 msgstr ""
 
+#: src/components/layout-base/index.js:10
 #: src/pages/landing/header/index.js:19
 msgid "Home"
 msgstr ""
 
-#: src/pages/landing/services-section/index.js:75
+#: src/pages/landing/services-section/index.js:70
 msgid "Individual tutoring - 1st to 12th school years"
 msgstr ""
 
-#: src/pages/landing/services-section/index.js:130
+#: src/pages/landing/services-section/index.js:120
 msgid "Language classes for adults"
 msgstr ""
 
@@ -79,7 +88,7 @@ msgstr ""
 msgid "Monday to Friday"
 msgstr ""
 
-#: src/pages/landing/services-section/index.js:79
+#: src/pages/landing/services-section/index.js:73
 msgid "More detailed and personalized assistance on the disciplines, aiming apprenticeship development, betterment of grades and preparation for tests, exams and portuguese national exams."
 msgstr ""
 
@@ -87,15 +96,28 @@ msgstr ""
 msgid "More photos"
 msgstr ""
 
-#: src/pages/landing/services-section/index.js:157
+#: src/pages/landing/services-section/index.js:142
 msgid "Music classes - Guitar"
+msgstr ""
+
+#: src/components/header/index.js:45
+msgid "New"
 msgstr ""
 
 #: src/pages/landing/banner/index.js:82
 msgid "Our services"
 msgstr ""
 
-#: src/pages/landing/services-section/index.js:161
+#: src/components/layout-base/index.js:26
+msgid "Parents"
+msgstr ""
+
+#: src/components/header/index.js:20
+#: src/components/layout-base/index.js:18
+msgid "Payments"
+msgstr ""
+
+#: src/pages/landing/services-section/index.js:145
 msgid "Reinforce musical learning and giving leisure time to the students, the center provides a music teacher for those interested in guitar learning. The scheduling of the classes are done weekly, according with the availability of the teacher."
 msgstr ""
 
@@ -103,9 +125,25 @@ msgstr ""
 msgid "Saturday"
 msgstr ""
 
+#: src/components/search-box/index.js:90
+msgid "Search"
+msgstr ""
+
 #: src/pages/landing/header/index.js:30
 #: src/pages/landing/services-section/index.js:19
 msgid "Services"
+msgstr ""
+
+#: src/components/header/index.js:33
+msgid "Settings"
+msgstr ""
+
+#: src/components/header/index.js:16
+msgid "Student"
+msgstr ""
+
+#: src/components/layout-base/index.js:17
+msgid "Students"
 msgstr ""
 
 #: src/pages/landing/services-section/index.js:46
@@ -126,6 +164,11 @@ msgstr ""
 
 #: src/pages/landing/banner/index.js:64
 msgid "Tutoring center"
+msgstr ""
+
+#: src/components/header/index.js:24
+#: src/components/layout-base/index.js:25
+msgid "Tutors"
 msgstr ""
 
 #: src/pages/landing/about-us/index.js:37

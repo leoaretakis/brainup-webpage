@@ -14,7 +14,7 @@ const catalogs = {
 
 ReactDOM.render(
   <FirebaseContext.Provider value={new Firebase()}>
-    <I18nProvider language="pt" catalogs={catalogs}>
+    <I18nProvider language="en" catalogs={catalogs}>
       <App />
     </I18nProvider>
   </FirebaseContext.Provider>,
