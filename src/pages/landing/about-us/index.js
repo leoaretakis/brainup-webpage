@@ -5,7 +5,7 @@ import Button from 'brainup-components/lib/button'
 import QueueAnim from 'rc-queue-anim'
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack'
 import TweenOne from 'rc-tween-one'
-
+import { Trans } from '@lingui/macro'
 import styles from './styles.module.scss'
 
 const AboutUs = props => (
@@ -20,19 +20,24 @@ const AboutUs = props => (
           <OverPack playScale={0.3}>
             <QueueAnim delay={400} type="bottom">
               <Text type="heading" className={styles.missonText} key="a">
-                O BrainUp é um centro de estudo dedicado aos alunos dos 1º, 2º e
-                3º ciclos e do secundário.
+                <Trans>
+                  BrainUp is a tutoring center focused on students from the 1º,
+                  2º e 3º cycles of primary school and high school (Portugal).
+                </Trans>
               </Text>
               <Text type="heading" className={styles.missonText} key="b">
-                O centro tem por missão proporcionar o desenvolvimento das
-                capacidades dos alunos referentes ao crescimento académico,
-                pessoal e social, incutindo-lhes o apreço pelo conhecimento e o
-                sentido de exigência e responsabilidade.
+                <Trans>
+                  The center has a mission of leveraging the development of the
+                  students' skills regarding academic, personal and social
+                  growth, instilling in them the appreciation for knowledge and
+                  the sense of responsability and self improvement.
+                </Trans>
               </Text>
               <Text type="heading" className={styles.missonText} key="c">
-                Dispomos dos serviços de sala de estudo, explicações individuais
-                e/ou em grupo, atividades pedagógicas e atividades
-                extracurriculares.
+                <Trans>
+                  We provide study room services, individual or group tutoring,
+                  pedagogical and extracurricular activities.
+                </Trans>
               </Text>
             </QueueAnim>
           </OverPack>
@@ -99,7 +104,9 @@ const AboutUs = props => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button>Ver mais fotos</Button>
+            <Button>
+              <Trans>More photos</Trans>
+            </Button>
           </a>
         </Row>
       </Col>

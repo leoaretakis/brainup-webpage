@@ -1,0 +1,42 @@
+{
+  "Home": {
+    "origin": [
+      [
+        "src/pages/landing/header/index.js",
+        19
+      ]
+    ]
+  },
+  "About us": {
+    "origin": [
+      [
+        "src/pages/landing/header/index.js",
+        23
+      ]
+    ]
+  },
+  "Services": {
+    "origin": [
+      [
+        "src/pages/landing/header/index.js",
+        30
+      ]
+    ]
+  },
+  "Contacts": {
+    "origin": [
+      [
+        "src/pages/landing/header/index.js",
+        37
+      ]
+    ]
+  },
+  "Log in": {
+    "origin": [
+      [
+        "src/pages/landing/header/index.js",
+        117
+      ]
+    ]
+  }
+}

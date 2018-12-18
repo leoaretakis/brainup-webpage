@@ -5,6 +5,7 @@ import QueueAnim from 'rc-queue-anim'
 import { Row, Col } from 'react-flexbox-grid'
 import Text from 'brainup-components/lib/text'
 import Icon from 'brainup-components/lib/icon'
+import { Trans } from '@lingui/macro'
 
 import styles from './styles.module.scss'
 
@@ -43,7 +44,7 @@ class Footer extends React.Component {
                 className={styles.sectionTitle}
                 type="displaySmall"
               >
-                Morada
+                <Trans>Address</Trans>
               </Text>
               <div className={styles.sectionOptions}>
                 <Text color="reversed">Rua Elias Garcia, nº287A</Text>
@@ -63,14 +64,24 @@ class Footer extends React.Component {
                 className={styles.sectionTitle}
                 type="displaySmall"
               >
-                Horário
+                <Trans>Time table</Trans>
               </Text>
               <div className={styles.sectionOptions}>
-                <Text color="reversed">Segunda a Sexta</Text>
-                <Text color="reversed">10h - 13h</Text>
-                <Text color="reversed">14h30 - 19h30</Text>
-                <Text color="reversed">Sábado</Text>
-                <Text color="reversed">10h - 13h</Text>
+                <Text color="reversed">
+                  <Trans>Monday to Friday</Trans>
+                </Text>
+                <Text color="reversed">
+                  <Trans>10am - 1pm</Trans>
+                </Text>
+                <Text color="reversed">
+                  <Trans>2:30pm - 7:30pm</Trans>
+                </Text>
+                <Text color="reversed">
+                  <Trans>Saturday</Trans>
+                </Text>
+                <Text color="reversed">
+                  <Trans>10am - 1pm</Trans>
+                </Text>
               </div>
             </Col>
 
@@ -86,7 +97,7 @@ class Footer extends React.Component {
                 className={styles.sectionTitle}
                 type="displaySmall"
               >
-                Contactos
+                <Trans>Contacts</Trans>
               </Text>
               <div className={styles.sectionOptions}>
                 <Text color="reversed">brainup.amadora@gmail.com</Text>

@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2018-12-18 09:43+0000\n"
+"Mime-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: pt\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/pages/landing/footer/index.js:74
+#: src/pages/landing/footer/index.js:83
+msgid "10am - 1pm"
+msgstr "10h - 13h"
+
+#: src/pages/landing/footer/index.js:77
+msgid "2:30pm - 7:30pm"
+msgstr "14h30 - 19h30"
+
+#: src/pages/landing/header/index.js:23
+msgid "About us"
+msgstr "Sobre nós"
+
+#: src/pages/landing/footer/index.js:47
+msgid "Address"
+msgstr "Morada"
+
+#: src/pages/landing/about-us/index.js:23
+msgid "BrainUp is a tutoring center focused on students from the 1º, 2º e 3º cycles of primary school and high school (Portugal)."
+msgstr "O BrainUp é um centro de estudo dedicado aos alunos dos 1º, 2º e 3º ciclos e do secundário."
+
+#: src/pages/landing/contact-section/index.js:23
+msgid "Contact us"
+msgstr "Contacte-nos"
+
+#: src/pages/landing/footer/index.js:100
+#: src/pages/landing/header/index.js:37
+msgid "Contacts"
+msgstr "Contactos"
+
+#: src/pages/landing/banner/index.js:74
+msgid "Evolve your brain with us!"
+msgstr "Evoluí o teu cérebro connosco!"
+
+#: src/pages/landing/services-section/index.js:134
+msgid "Focused on adults, the classes aim to consolidate and aquire knowledge and competence on languages - Porguguese, English and French. We provide Porguese classes for foreigners."
+msgstr "Destinam-se a adultos e visam a aquisição e a consolidação de conhecimentos e competências linguísticas - Português, Inglês e Francês. Disponibilizamos aulas de Português a cidadãos estrangeiros."
+
+#: src/pages/landing/services-section/index.js:52
+msgid "Help students elaborate their homework, solve training fiches, clarify questions and preparations for the tests, exams, and portuguese national exams."
+msgstr "Permite auxiliar os alunos na elaboração dos trabalhos de casa, na resolução de fichas formativas, no esclarecimento de dúvidas e na preparação para a realização dos testes, das provas de aferição e dos exames nacionais."
+
+#: src/pages/landing/header/index.js:19
+msgid "Home"
+msgstr "Home"
+
+#: src/pages/landing/services-section/index.js:75
+msgid "Individual tutoring - 1st to 12th school years"
+msgstr "Explicações individuais - 1º ao 12º"
+
+#: src/pages/landing/services-section/index.js:130
+msgid "Language classes for adults"
+msgstr "Aulas de línguas para adultos"
+
+#: src/pages/landing/header/index.js:117
+msgid "Log in"
+msgstr "Aceder"
+
+#: src/pages/signout/index.js:19
+msgid "Loggin off..."
+msgstr "Desconectando-se..."
+
+#: src/pages/landing/footer/index.js:71
+msgid "Monday to Friday"
+msgstr "Segunda a Sexta"
+
+#: src/pages/landing/services-section/index.js:79
+msgid "More detailed and personalized assistance on the disciplines, aiming apprenticeship development, betterment of grades and preparation for tests, exams and portuguese national exams."
+msgstr "Permitem um acompanhamento mais detalhado e personalizado das disciplinas, visando o desenvolvimento de aprendizagens, a melhoria/recuperação das notas e a preparação para a realização das provas de aferição e dos exames nacionais."
+
+#: src/pages/landing/about-us/index.js:108
+msgid "More photos"
+msgstr "Ver mais fotos"
+
+#: src/pages/landing/services-section/index.js:157
+msgid "Music classes - Guitar"
+msgstr "Aulas de música - Viola/guitarra"
+
+#: src/pages/landing/banner/index.js:82
+msgid "Our services"
+msgstr "Conheça nossos serviços"
+
+#: src/pages/landing/services-section/index.js:161
+msgid "Reinforce musical learning and giving leisure time to the students, the center provides a music teacher for those interested in guitar learning. The scheduling of the classes are done weekly, according with the availability of the teacher."
+msgstr "De forma a reforçar as aprendizagens dos alunos e a proporcionar-lhes um tempo de lazer, o centro disponibiliza um professor para aulas de música (viola/guitarra). A marcação das aulas é feita semanalmente, consoante a disponibilidade do professor."
+
+#: src/pages/landing/footer/index.js:80
+msgid "Saturday"
+msgstr "Sábado"
+
+#: src/pages/landing/header/index.js:30
+#: src/pages/landing/services-section/index.js:19
+msgid "Services"
+msgstr "Serviços"
+
+#: src/pages/landing/services-section/index.js:46
+msgid "Study rooms - 1st to 9th cycles of primary school (Portugal)"
+msgstr "Salas de estudo - 1º ao 9º"
+
+#: src/pages/landing/banner/index.js:71
+msgid "Study rooms, individual tutoring and more!"
+msgstr "Sala de estudo, explicações individuais, e mais!"
+
+#: src/pages/landing/about-us/index.js:29
+msgid "The center has a mission of leveraging the development of the students' skills regarding academic, personal and social growth, instilling in them the appreciation for knowledge and the sense of responsability and self improvement."
+msgstr "O centro tem por missão proporcionar o desenvolvimento das capacidades dos alunos referentes ao crescimento académico, pessoal e social, incutindo-lhes o apreço pelo conhecimento e o sentido de exigência e responsabilidade."
+
+#: src/pages/landing/footer/index.js:67
+msgid "Time table"
+msgstr "Horários"
+
+#: src/pages/landing/banner/index.js:64
+msgid "Tutoring center"
+msgstr "Centro de estudo"
+
+#: src/pages/landing/about-us/index.js:37
+msgid "We provide study room services, individual or group tutoring, pedagogical and extracurricular activities."
+msgstr "Dispomos dos serviços de sala de estudo, explicações individuais e/ou em grupo, atividades pedagógicas e atividades extracurriculares."

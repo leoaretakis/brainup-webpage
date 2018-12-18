@@ -5,6 +5,7 @@ import Text from 'brainup-components/lib/text'
 import Button from 'brainup-components/lib/button'
 import Icon from 'brainup-components/lib/icon'
 import { Link } from 'rc-scroll-anim'
+import { Trans } from '@lingui/macro'
 
 import BannerTitle from './title'
 
@@ -60,17 +61,17 @@ const Banner = props => (
               <React.Fragment>
                 <img src={brandNameImage} alt="Brainup" />
                 <Text type="heading" className={styles.subtitle}>
-                  Centro de estudo
+                  <Trans>Tutoring center</Trans>
                 </Text>
               </React.Fragment>
             }
             subtitle={
               <React.Fragment>
                 <Text type="displaySmall" className={styles.marketingText}>
-                  Sala de estudo, explicações individuais, e mais!
+                  <Trans>Study rooms, individual tutoring and more!</Trans>
                 </Text>
                 <Text type="displaySmall" className={styles.marketingText}>
-                  Evoluí o teu cérebro connosco!
+                  <Trans>Evolve your brain with us!</Trans>
                 </Text>
               </React.Fragment>
             }
@@ -78,7 +79,7 @@ const Banner = props => (
             <Link to="services-section">
               <Button type="primary">
                 <Text tag="span" color="reversed">
-                  Conheça nossos serviços
+                  <Trans>Our services</Trans>
                 </Text>
               </Button>
             </Link>

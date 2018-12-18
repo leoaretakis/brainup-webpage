@@ -8,6 +8,7 @@ import Button from 'brainup-components/lib/button'
 import Menu from 'brainup-components/lib/menu'
 import classNames from 'classnames'
 import { Col } from 'react-flexbox-grid'
+import { Trans } from '@lingui/macro'
 
 import * as ROUTES from '../../../constants/routes'
 import logoBrandImg from '../../../resources/logo-brand-white.svg'
@@ -15,10 +16,28 @@ import logoBrandImg from '../../../resources/logo-brand-white.svg'
 import styles from './styles.module.scss'
 
 const menuItems = [
-  { name: 'item0', a: { children: 'Home', href: '' } },
-  { name: 'item2', a: { children: 'Sobre nós', to: 'about-us' } },
-  { name: 'item1', a: { children: 'Serviços', to: 'services-section' } },
-  { name: 'item3', a: { children: 'Contactos', to: 'contact-section' } }
+  { name: 'item0', a: { children: <Trans>Home</Trans>, href: '' } },
+  {
+    name: 'item2',
+    a: {
+      children: <Trans>About us</Trans>,
+      to: 'about-us'
+    }
+  },
+  {
+    name: 'item1',
+    a: {
+      children: <Trans>Services</Trans>,
+      to: 'services-section'
+    }
+  },
+  {
+    name: 'item3',
+    a: {
+      children: <Trans>Contacts</Trans>,
+      to: 'contact-section'
+    }
+  }
 ]
 
 class Header extends Component {
@@ -94,7 +113,9 @@ class Header extends Component {
             ))}
             <Menu.Item name="button">
               <RouterLink to={ROUTES.SIGN_IN}>
-                <Button ghost>Log in</Button>
+                <Button ghost>
+                  <Trans>Log in</Trans>
+                </Button>
               </RouterLink>
             </Menu.Item>
           </Menu>

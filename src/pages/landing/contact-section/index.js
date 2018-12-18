@@ -4,6 +4,7 @@ import Text from 'brainup-components/lib/text'
 import Icon from 'brainup-components/lib/icon'
 import QueueAnim from 'rc-queue-anim'
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack'
+import { Trans } from '@lingui/macro'
 import styles from './styles.module.scss'
 import contactPageImage from '../../../resources/images/contact-page-image.svg'
 
@@ -19,7 +20,7 @@ const ContactSection = props => (
         <OverPack playScale={0.3}>
           <QueueAnim delay={400} type="bottom">
             <Text key="a" className={styles.title} type="displayMedium">
-              Contacte-nos
+              <Trans>Contact us</Trans>
             </Text>
             <Text key="b" type="heading" className={styles.contactText}>
               <Icon type="phone" className={styles.contactIcon} />

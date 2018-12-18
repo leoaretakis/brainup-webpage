@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2018-12-18 09:43+0000\n"
+"Mime-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/pages/landing/footer/index.js:74
+#: src/pages/landing/footer/index.js:83
+msgid "10am - 1pm"
+msgstr ""
+
+#: src/pages/landing/footer/index.js:77
+msgid "2:30pm - 7:30pm"
+msgstr ""
+
+#: src/pages/landing/header/index.js:23
+msgid "About us"
+msgstr ""
+
+#: src/pages/landing/footer/index.js:47
+msgid "Address"
+msgstr ""
+
+#: src/pages/landing/about-us/index.js:23
+msgid "BrainUp is a tutoring center focused on students from the 1º, 2º e 3º cycles of primary school and high school (Portugal)."
+msgstr ""
+
+#: src/pages/landing/contact-section/index.js:23
+msgid "Contact us"
+msgstr ""
+
+#: src/pages/landing/footer/index.js:100
+#: src/pages/landing/header/index.js:37
+msgid "Contacts"
+msgstr ""
+
+#: src/pages/landing/banner/index.js:74
+msgid "Evolve your brain with us!"
+msgstr ""
+
+#: src/pages/landing/services-section/index.js:134
+msgid "Focused on adults, the classes aim to consolidate and aquire knowledge and competence on languages - Porguguese, English and French. We provide Porguese classes for foreigners."
+msgstr ""
+
+#: src/pages/landing/services-section/index.js:52
+msgid "Help students elaborate their homework, solve training fiches, clarify questions and preparations for the tests, exams, and portuguese national exams."
+msgstr ""
+
+#: src/pages/landing/header/index.js:19
+msgid "Home"
+msgstr ""
+
+#: src/pages/landing/services-section/index.js:75
+msgid "Individual tutoring - 1st to 12th school years"
+msgstr ""
+
+#: src/pages/landing/services-section/index.js:130
+msgid "Language classes for adults"
+msgstr ""
+
+#: src/pages/landing/header/index.js:117
+msgid "Log in"
+msgstr ""
+
+#: src/pages/signout/index.js:19
+msgid "Loggin off..."
+msgstr ""
+
+#: src/pages/landing/footer/index.js:71
+msgid "Monday to Friday"
+msgstr ""
+
+#: src/pages/landing/services-section/index.js:79
+msgid "More detailed and personalized assistance on the disciplines, aiming apprenticeship development, betterment of grades and preparation for tests, exams and portuguese national exams."
+msgstr ""
+
+#: src/pages/landing/about-us/index.js:108
+msgid "More photos"
+msgstr ""
+
+#: src/pages/landing/services-section/index.js:157
+msgid "Music classes - Guitar"
+msgstr ""
+
+#: src/pages/landing/banner/index.js:82
+msgid "Our services"
+msgstr ""
+
+#: src/pages/landing/services-section/index.js:161
+msgid "Reinforce musical learning and giving leisure time to the students, the center provides a music teacher for those interested in guitar learning. The scheduling of the classes are done weekly, according with the availability of the teacher."
+msgstr ""
+
+#: src/pages/landing/footer/index.js:80
+msgid "Saturday"
+msgstr ""
+
+#: src/pages/landing/header/index.js:30
+#: src/pages/landing/services-section/index.js:19
+msgid "Services"
+msgstr ""
+
+#: src/pages/landing/services-section/index.js:46
+msgid "Study rooms - 1st to 9th cycles of primary school (Portugal)"
+msgstr ""
+
+#: src/pages/landing/banner/index.js:71
+msgid "Study rooms, individual tutoring and more!"
+msgstr ""
+
+#: src/pages/landing/about-us/index.js:29
+msgid "The center has a mission of leveraging the development of the students' skills regarding academic, personal and social growth, instilling in them the appreciation for knowledge and the sense of responsability and self improvement."
+msgstr ""
+
+#: src/pages/landing/footer/index.js:67
+msgid "Time table"
+msgstr ""
+
+#: src/pages/landing/banner/index.js:64
+msgid "Tutoring center"
+msgstr ""
+
+#: src/pages/landing/about-us/index.js:37
+msgid "We provide study room services, individual or group tutoring, pedagogical and extracurricular activities."
+msgstr ""

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Trans } from '@lingui/macro'
 import Text from 'brainup-components/lib/text'
 import { withRouter } from 'react-router-dom'
 import { withFirebase } from '../../components/firebase'
@@ -13,7 +14,11 @@ class SignOutPageBase extends Component {
   }
 
   render() {
-    return <Text>Loggin off...</Text>
+    return (
+      <Text>
+        <Trans>Loggin off...</Trans>
+      </Text>
+    )
   }
 }
 

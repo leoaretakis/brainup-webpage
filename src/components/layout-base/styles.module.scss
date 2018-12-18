@@ -1,0 +1,40 @@
+.sidebarContainer {
+  overflow: auto;
+  height: 100vh;
+  position: fixed !important;
+  left: 0;
+}
+
+.logoContainer {
+  padding: var(--space-default);
+  height: 64px;
+
+  img {
+    width: 100%;
+    max-height: 100%;
+  }
+}
+
+.mainRegionContainer {
+  margin-left: 200px;
+  height: 100vh;
+}
+
+.headerContainer {
+  background: var(--color-white) !important;
+  padding: 0 !important;
+  position: fixed;
+  z-index: 1;
+  width: calc(100% - 200px);
+  border-bottom: 1px solid var(--color-grey-300);
+}
+
+.contentRegionContainer {
+  margin: calc(24px + 65px) 16px 0;
+  overflow: initial;
+}
+
+.contentContainer {
+  padding: 24px;
+  background: var(--color-white);
+}

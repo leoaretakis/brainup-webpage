@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './app'
 import Firebase, { FirebaseContext } from './components/firebase'
+import { I18nProvider } from '@lingui/react'
 // import * as serviceWorker from './serviceWorker';
+
+import ptCatalog from './locales/pt/messages.js'
+
+const catalogs = {
+  pt: ptCatalog
+}
 
 ReactDOM.render(
   <FirebaseContext.Provider value={new Firebase()}>
-    <App />
+    <I18nProvider language="pt" catalogs={catalogs}>
+      <App />
+    </I18nProvider>
   </FirebaseContext.Provider>,
   document.getElementById('root')
 )

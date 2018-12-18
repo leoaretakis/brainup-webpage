@@ -1,0 +1,62 @@
+{
+  "Address": {
+    "origin": [
+      [
+        "src/pages/landing/footer/index.js",
+        47
+      ]
+    ]
+  },
+  "Time table": {
+    "origin": [
+      [
+        "src/pages/landing/footer/index.js",
+        67
+      ]
+    ]
+  },
+  "Monday to Friday": {
+    "origin": [
+      [
+        "src/pages/landing/footer/index.js",
+        71
+      ]
+    ]
+  },
+  "10am - 1pm": {
+    "origin": [
+      [
+        "src/pages/landing/footer/index.js",
+        74
+      ],
+      [
+        "src/pages/landing/footer/index.js",
+        83
+      ]
+    ]
+  },
+  "2:30pm - 7:30pm": {
+    "origin": [
+      [
+        "src/pages/landing/footer/index.js",
+        77
+      ]
+    ]
+  },
+  "Saturday": {
+    "origin": [
+      [
+        "src/pages/landing/footer/index.js",
+        80
+      ]
+    ]
+  },
+  "Contacts": {
+    "origin": [
+      [
+        "src/pages/landing/footer/index.js",
+        100
+      ]
+    ]
+  }
+}

@@ -4,7 +4,7 @@ import TweenOne from 'rc-tween-one'
 import { Grid, Row, Col } from 'react-flexbox-grid'
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack'
 import Text from 'brainup-components/lib/text'
-
+import { Trans } from '@lingui/macro'
 import styles from './styles.module.scss'
 
 import studyRoomImage from '../../../resources/images/study-room.svg'
@@ -16,7 +16,7 @@ const ServicesSection = props => {
   return (
     <Grid fluid {...props}>
       <Text type="displayExtraLarge" className={styles.title}>
-        Serviços
+        <Trans>Services</Trans>
       </Text>
 
       <OverPack playScale={0.3} component={Row} className={styles.serviceRow}>
@@ -43,13 +43,16 @@ const ServicesSection = props => {
           componentProps={{ md: 6, xs: 12 }}
         >
           <Text key="a" type="displayMedium" className={styles.sectionTitle}>
-            Salas de estudo - 1º ao 9º
+            <Trans>
+              Study rooms - 1st to 9th cycles of primary school (Portugal)
+            </Trans>
           </Text>
           <Text key="b" className={styles.sectionText}>
-            Permite auxiliar os alunos na elaboração dos trabalhos de casa, na
-            resolução de fichas formativas, no esclarecimento de dúvidas e na
-            preparação para a realização dos testes, das provas de aferição e
-            dos exames nacionais.
+            <Trans>
+              Help students elaborate their homework, solve training fiches,
+              clarify questions and preparations for the tests, exams, and
+              portuguese national exams.
+            </Trans>
           </Text>
         </QueueAnim>
       </OverPack>
@@ -64,13 +67,14 @@ const ServicesSection = props => {
           componentProps={{ md: 6, xs: 12 }}
         >
           <Text key="c" type="displayMedium" className={styles.sectionTitle}>
-            Explicações individuais - 1º ao 12º
+            <Trans>Individual tutoring - 1st to 12th school years</Trans>
           </Text>
           <Text key="d" className={styles.sectionText}>
-            Permitem um acompanhamento mais detalhado e personalizado das
-            disciplinas, visando o desenvolvimento de aprendizagens, a
-            melhoria/recuperação das notas e a preparação para a realização das
-            provas de aferição e dos exames nacionais.
+            <Trans>
+              More detailed and personalized assistance on the disciplines,
+              aiming apprenticeship development, betterment of grades and
+              preparation for tests, exams and portuguese national exams.
+            </Trans>
           </Text>
         </QueueAnim>
         <TweenOne
@@ -113,13 +117,14 @@ const ServicesSection = props => {
           componentProps={{ md: 6, xs: 12 }}
         >
           <Text key="a" type="displayMedium" className={styles.sectionTitle}>
-            Aulas de línguas para adultos
+            <Trans>Language classes for adults</Trans>
           </Text>
           <Text key="b" className={styles.sectionText}>
-            Destinam-se a adultos e visam a aquisição e a consolidação de
-            conhecimentos e competências linguísticas - Português, Inglês e
-            Francês. Disponibilizamos aulas de Português a cidadãos
-            estrangeiros.
+            <Trans>
+              Focused on adults, the classes aim to consolidate and aquire
+              knowledge and competence on languages - Porguguese, English and
+              French. We provide Porguese classes for foreigners.
+            </Trans>
           </Text>
         </QueueAnim>
       </OverPack>
@@ -134,14 +139,15 @@ const ServicesSection = props => {
           componentProps={{ md: 6, xs: 12 }}
         >
           <Text key="c" type="displayMedium" className={styles.sectionTitle}>
-            Aulas de música - Viola/guitarra
+            <Trans>Music classes - Guitar</Trans>
           </Text>
           <Text key="d" className={styles.sectionText}>
-            De forma a reforçar as aprendizagens dos alunos e a
-            proporcionar-lhes um tempo de lazer, o centro disponibiliza um
-            professor para aulas de música (viola/guitarra). A marcação das
-            aulas é feita semanalmente, consoante a disponibilidade do
-            professor.
+            <Trans>
+              Reinforce musical learning and giving leisure time to the
+              students, the center provides a music teacher for those interested
+              in guitar learning. The scheduling of the classes are done weekly,
+              according with the availability of the teacher.
+            </Trans>
           </Text>
         </QueueAnim>
         <TweenOne

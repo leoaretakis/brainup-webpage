@@ -1,0 +1,34 @@
+{
+  "BrainUp is a tutoring center focused on students from the 1º, 2º e 3º cycles of primary school and high school (Portugal).": {
+    "origin": [
+      [
+        "src/pages/landing/about-us/index.js",
+        23
+      ]
+    ]
+  },
+  "The center has a mission of leveraging the development of the students' skills regarding academic, personal and social growth, instilling in them the appreciation for knowledge and the sense of responsability and self improvement.": {
+    "origin": [
+      [
+        "src/pages/landing/about-us/index.js",
+        29
+      ]
+    ]
+  },
+  "We provide study room services, individual or group tutoring, pedagogical and extracurricular activities.": {
+    "origin": [
+      [
+        "src/pages/landing/about-us/index.js",
+        37
+      ]
+    ]
+  },
+  "More photos": {
+    "origin": [
+      [
+        "src/pages/landing/about-us/index.js",
+        108
+      ]
+    ]
+  }
+}

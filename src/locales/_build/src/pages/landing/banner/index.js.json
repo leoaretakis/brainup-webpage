@@ -1,0 +1,34 @@
+{
+  "Tutoring center": {
+    "origin": [
+      [
+        "src/pages/landing/banner/index.js",
+        64
+      ]
+    ]
+  },
+  "Study rooms, individual tutoring and more!": {
+    "origin": [
+      [
+        "src/pages/landing/banner/index.js",
+        71
+      ]
+    ]
+  },
+  "Evolve your brain with us!": {
+    "origin": [
+      [
+        "src/pages/landing/banner/index.js",
+        74
+      ]
+    ]
+  },
+  "Our services": {
+    "origin": [
+      [
+        "src/pages/landing/banner/index.js",
+        82
+      ]
+    ]
+  }
+}
