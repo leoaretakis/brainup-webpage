@@ -1,0 +1,17 @@
+:global {
+  html body * {
+    font-family: 'Nunito', 'Nunito Sans', sans-serif, -apple-system,
+      BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+      'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  }
+}
+
+@import './constants/colors.scss';
+@import './constants/spacing.scss';
+// @import './constants/borders.scss';
+
+@import './base/colors.scss';
+@import './base/typography.scss';
+@import './base/margins.scss';
+@import './base/paddings.scss';
+@import './base/shadows.scss';

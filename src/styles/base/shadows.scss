@@ -1,0 +1,35 @@
+:global {
+  .shadow-raised {
+    background-color: #ffffff;
+    background-color: var(--color-white);
+
+    box-shadow: 0 1px 3px 0 rgba(63, 63, 68, 0.15),
+      0 0 0 1px rgba(31, 45, 61, 0.05);
+  }
+
+  .shadow-distant {
+    background-color: #ffffff;
+    background-color: var(--color-white);
+
+    box-shadow: 0 2px 16px 0 rgba(33, 43, 54, 0.08),
+      0 0 0 1px rgba(6, 44, 82, 0.1);
+  }
+
+  .shadow-popout {
+    background-color: #ffffff;
+    background-color: var(--color-white);
+
+    box-shadow: 0 2px 16px 0 rgba(33, 43, 54, 0.08),
+      0 31px 41px 0 rgba(33, 43, 54, 0.2);
+  }
+
+  .shadow-cover {
+    background-color: rgba(255, 255, 255, 0.98);
+    background-color: var(--ff-shadow-cover-color);
+  }
+
+  .shadow-haze {
+    background-color: rgba(31, 45, 61, 0.4);
+    background-color: var(--ff-shadow-haze-color);
+  }
+}

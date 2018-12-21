@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { Form, Icon, Input, Alert } from 'antd'
-import Button from 'brainup-components/lib/button'
+import { Form, Icon, Input, Alert, Button } from 'antd'
 
 import styles from './styles.module.scss'
 

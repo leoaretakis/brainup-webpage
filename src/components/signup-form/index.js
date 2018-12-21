@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { Form, Input, Alert } from 'antd'
-import Button from 'brainup-components/lib/button'
+import { Form, Input, Alert, Button } from 'antd'
 import { withRouter } from 'react-router-dom'
 
 import * as ROUTES from '../../constants/routes'

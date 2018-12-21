@@ -1,0 +1,240 @@
+:global {
+  .padding-tiny {
+    padding: 4px;
+    padding: var(--space-tiny);
+  }
+  .paddingTop-tiny {
+    padding-top: 4px;
+    padding-top: var(--space-tiny);
+  }
+  .paddingBottom-tiny {
+    padding-bottom: 4px;
+    padding-bottom: var(--space-tiny);
+  }
+  .paddingLeft-tiny {
+    padding-left: 4px;
+    padding-left: var(--space-tiny);
+  }
+  .paddingRight-tiny {
+    padding-right: 4px;
+    padding-right: var(--space-tiny);
+  }
+  .paddingTopBottom-tiny {
+    padding-top: 4px;
+    padding-top: var(--space-tiny);
+
+    padding-bottom: 4px;
+    padding-bottom: var(--space-tiny);
+  }
+  .paddingLeftRight-tiny {
+    padding-left: 4px;
+    padding-left: var(--space-tiny);
+
+    padding-right: 4px;
+    padding-right: var(--space-tiny);
+  }
+
+  .padding-small {
+    padding: 8px;
+    padding: var(--space-small);
+  }
+  .paddingTop-small {
+    padding-top: 8px;
+    padding-top: var(--space-small);
+  }
+  .paddingBottom-small {
+    padding-bottom: 8px;
+    padding-bottom: var(--space-small);
+  }
+  .paddingLeft-small {
+    padding-left: 8px;
+    padding-left: var(--space-small);
+  }
+  .paddingRight-small {
+    padding-right: 8px;
+    padding-right: var(--space-small);
+  }
+  .paddingTopBottom-small {
+    padding-top: 8px;
+    padding-top: var(--space-small);
+
+    padding-bottom: 8px;
+    padding-bottom: var(--space-small);
+  }
+  .paddingLeftRight-small {
+    padding-left: 8px;
+    padding-left: var(--space-small);
+
+    padding-right: 8px;
+    padding-right: var(--space-small);
+  }
+
+  .padding-less {
+    padding: 12px;
+    padding: var(--space-less);
+  }
+  .paddingTop-less {
+    padding-top: 12px;
+    padding-top: var(--space-less);
+  }
+  .paddingBottom-less {
+    padding-bottom: 12px;
+    padding-bottom: var(--space-less);
+  }
+  .paddingLeft-less {
+    padding-left: 12px;
+    padding-left: var(--space-less);
+  }
+  .paddingRight-less {
+    padding-right: 12px;
+    padding-right: var(--space-less);
+  }
+  .paddingTopBottom-less {
+    padding-top: 12px;
+    padding-top: var(--space-less);
+
+    padding-bottom: 12px;
+    padding-bottom: var(--space-less);
+  }
+  .paddingLeftRight-less {
+    padding-left: 12px;
+    padding-left: var(--space-less);
+
+    padding-right: 12px;
+    padding-right: var(--space-less);
+  }
+
+  .padding-default {
+    padding: 16px;
+    padding: var(--space-default);
+  }
+  .paddingTop-default {
+    padding-top: 16px;
+    padding-top: var(--space-default);
+  }
+  .paddingBottom-default {
+    padding-bottom: 16px;
+    padding-bottom: var(--space-default);
+  }
+  .paddingLeft-default {
+    padding-left: 16px;
+    padding-left: var(--space-default);
+  }
+  .paddingRight-default {
+    padding-right: 16px;
+    padding-right: var(--space-default);
+  }
+  .paddingTopBottom-default {
+    padding-top: 16px;
+    padding-top: var(--space-default);
+
+    padding-bottom: 16px;
+    padding-bottom: var(--space-default);
+  }
+  .paddingLeftRight-default {
+    padding-left: 16px;
+    padding-left: var(--space-default);
+
+    padding-right: 16px;
+    padding-right: var(--space-default);
+  }
+
+  .padding-more {
+    padding: 24px;
+    padding: var(--space-more);
+  }
+  .paddingTop-more {
+    padding-top: 24px;
+    padding-top: var(--space-more);
+  }
+  .paddingBottom-more {
+    padding-bottom: 24px;
+    padding-bottom: var(--space-more);
+  }
+  .paddingLeft-more {
+    padding-left: 24px;
+    padding-left: var(--space-more);
+  }
+  .paddingRight-more {
+    padding-right: 24px;
+    padding-right: var(--space-more);
+  }
+  .paddingTopBottom-more {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-top: var(--space-more);
+    padding-bottom: var(--space-more);
+  }
+  .paddingLeftRight-more {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-left: var(--space-more);
+    padding-right: var(--space-more);
+  }
+
+  .padding-big {
+    padding: 32px;
+    padding: var(--space-big);
+  }
+  .paddingTop-big {
+    padding-top: 32px;
+    padding-top: var(--space-big);
+  }
+  .paddingBottom-big {
+    padding-bottom: 32px;
+    padding-bottom: var(--space-big);
+  }
+  .paddingLeft-big {
+    padding-left: 32px;
+    padding-left: var(--space-big);
+  }
+  .paddingRight-big {
+    padding-right: 32px;
+    padding-right: var(--space-big);
+  }
+  .paddingTopBottom-big {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-top: var(--space-big);
+    padding-bottom: var(--space-big);
+  }
+  .paddingLeftRight-big {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-left: var(--space-big);
+    padding-right: var(--space-big);
+  }
+
+  .padding-huge {
+    padding: 64px;
+    padding: var(--space-huge);
+  }
+  .paddingTop-huge {
+    padding-top: 64px;
+    padding-top: var(--space-huge);
+  }
+  .paddingBottom-huge {
+    padding-bottom: 64px;
+    padding-bottom: var(--space-huge);
+  }
+  .paddingLeft-huge {
+    padding-left: 64px;
+    padding-left: var(--space-huge);
+  }
+  .paddingRight-huge {
+    padding-right: 64px;
+    padding-right: var(--space-huge);
+  }
+  .paddingTopBottom-huge {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-top: var(--space-huge);
+    padding-bottom: var(--space-huge);
+  }
+  .paddingLeftRight-huge {
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-left: var(--space-huge);
+    padding-right: var(--space-huge);
+  }
+}

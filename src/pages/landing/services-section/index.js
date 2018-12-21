@@ -3,7 +3,7 @@ import QueueAnim from 'rc-queue-anim'
 import TweenOne from 'rc-tween-one'
 import { Grid, Row, Col } from 'react-flexbox-grid'
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack'
-import Text from 'brainup-components/lib/text'
+import Text from '../../../components/text'
 import { Trans } from '@lingui/macro'
 import styles from './styles.module.scss'
 

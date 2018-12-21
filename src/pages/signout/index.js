@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Redirect } from 'react-router-dom'
-import Text from 'brainup-components/lib/text'
+import Text from '../../components/text'
 
 import logout from '../../api/logout'
 import * as ROUTES from '../../constants/routes'

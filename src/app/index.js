@@ -13,7 +13,7 @@ import AdminPage from '../pages/admin'
 import * as ROUTES from '../constants/routes'
 import ptCatalog from '../locales/pt/messages.js'
 
-import 'brainup-components/src/styles/main.scss'
+import '../styles/main.scss'
 import 'antd/dist/antd.css'
 import Authentication from '../components/authentication'
 

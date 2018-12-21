@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { Form, Icon, Input, Checkbox, Alert } from 'antd'
-import Button from 'brainup-components/lib/button'
+import { Form, Icon, Input, Checkbox, Alert, Button } from 'antd'
 import { withRouter, Link } from 'react-router-dom'
 
 import login from '../../api/login'

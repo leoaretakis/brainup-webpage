@@ -1,9 +1,8 @@
 import React from 'react'
 import TweenOne, { TweenOneGroup } from 'rc-tween-one'
 import BannerAnim, { Element } from 'rc-banner-anim'
-import Text from 'brainup-components/lib/text'
-import Button from 'brainup-components/lib/button'
-import Icon from 'brainup-components/lib/icon'
+import Text from '../../../components/text'
+import { Button, Icon } from 'antd'
 import { Link } from 'rc-scroll-anim'
 import { Trans } from '@lingui/macro'
 
