@@ -1,18 +1,20 @@
-import React from 'react'
-
+import React, { useContext } from 'react'
+import { Redirect } from 'react-router-dom'
 import RegisterPageTemplate from '../../components/register-page-template'
 import SignInForm from '../../components/signin-form'
-import { withAuthorization } from '../../components/session'
+import AuthContext from '../../components/authentication/context'
 import * as ROUTES from '../../constants/routes'
 
-const SignInPageBase = () => (
-  <RegisterPageTemplate>
-    <SignInForm />
-  </RegisterPageTemplate>
-)
+const SignInPage = () => {
+  const authUser = useContext(AuthContext)
 
-const condition = authUser => !authUser
-const goToHome = () => ROUTES.HOME
-const SignInPage = withAuthorization(condition, goToHome)(SignInPageBase)
+  return !authUser ? (
+    <RegisterPageTemplate>
+      <SignInForm />
+    </RegisterPageTemplate>
+  ) : (
+    <Redirect to={ROUTES.HOME} />
+  )
+}
 
 export default SignInPage

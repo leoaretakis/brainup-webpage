@@ -3,7 +3,6 @@ import { Form, Input, Alert } from 'antd'
 import Button from 'brainup-components/lib/button'
 import { withRouter } from 'react-router-dom'
 
-import { withFirebase } from '../firebase'
 import * as ROUTES from '../../constants/routes'
 
 import styles from './styles.module.scss'
@@ -153,6 +152,6 @@ class SignUpFormBase extends Component {
   }
 }
 
-const SignUpForm = withFirebase(withRouter(Form.create()(SignUpFormBase)))
+const SignUpForm = withRouter(Form.create()(SignUpFormBase))
 
 export default SignUpForm

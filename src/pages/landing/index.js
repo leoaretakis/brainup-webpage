@@ -1,18 +1,21 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import MediaQuery from 'react-responsive'
+import { Redirect } from 'react-router-dom'
 import Header from './header'
 import Banner from './banner'
 import ServicesSection from './services-section'
 import Footer from './footer'
 import AboutUs from './about-us'
 import ContactSection from './contact-section'
-import { withAuthorization } from '../../components/session'
 import * as ROUTES from '../../constants/routes'
+import AuthContext from '../../components/authentication/context'
 
 const Mobile = props => <MediaQuery {...props} maxWidth={767} />
 
 const LandingPage = () => {
-  return (
+  const authUser = useContext(AuthContext)
+
+  return !authUser ? (
     <div>
       <Mobile>{isMobile => <Header isMobile={isMobile} />}</Mobile>
       <Banner />
@@ -21,9 +24,9 @@ const LandingPage = () => {
       <ContactSection id="contact-section" />
       <Footer />
     </div>
+  ) : (
+    <Redirect to={ROUTES.HOME} />
   )
 }
 
-const condition = authUser => !authUser
-const goToHome = () => ROUTES.HOME
-export default withAuthorization(condition, goToHome)(LandingPage)
+export default LandingPage

@@ -1,27 +1,23 @@
-import React, { Component } from 'react'
-import { Trans } from '@lingui/macro'
+import React, { useState, useEffect } from 'react'
+import { Redirect } from 'react-router-dom'
 import Text from 'brainup-components/lib/text'
-import { withRouter } from 'react-router-dom'
-import { withFirebase } from '../../components/firebase'
 
+import logout from '../../api/logout'
 import * as ROUTES from '../../constants/routes'
 
-class SignOutPageBase extends Component {
-  componentDidMount() {
-    this.props.firebase.doSignOut().then(() => {
-      this.props.history.push(ROUTES.LANDING)
-    })
-  }
+const noRepeat = [0]
 
-  render() {
-    return (
-      <Text>
-        <Trans>Loggin off...</Trans>
-      </Text>
-    )
-  }
+const SignOutPage = () => {
+  const [loggedOff, setLoggedOff] = useState(false)
+  useEffect(() => {
+    logout().then(() => setLoggedOff(true))
+  }, noRepeat)
+
+  return loggedOff ? (
+    <Redirect to={ROUTES.LANDING} />
+  ) : (
+    <Text>Loggin off...</Text>
+  )
 }
-
-const SignOutPage = withFirebase(withRouter(SignOutPageBase))
 
 export default SignOutPage

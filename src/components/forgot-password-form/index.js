@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import { Form, Icon, Input, Alert } from 'antd'
 import Button from 'brainup-components/lib/button'
 
-import { withFirebase } from '../firebase'
-
 import styles from './styles.module.scss'
 
 class ForgotPasswordFormBase extends Component {
@@ -16,7 +14,6 @@ class ForgotPasswordFormBase extends Component {
         this.props.firebase
           .doPasswordReset(email)
           .then(() => {
-            debugger
             // this.setState({ ...INITIAL_STATE })
           })
           .catch(error => {
@@ -70,6 +67,7 @@ class ForgotPasswordFormBase extends Component {
   }
 }
 
-const ForgotPasswordForm = withFirebase(Form.create()(ForgotPasswordFormBase))
+// const ForgotPasswordForm = withFirebase(Form.create()(ForgotPasswordFormBase))
+const ForgotPasswordForm = Form.create()(ForgotPasswordFormBase)
 
 export default ForgotPasswordForm

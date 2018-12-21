@@ -1,7 +1,7 @@
 import React from 'react'
 
-import * as ROLES from '../../constants/roles'
-import { withAuthorization } from '../../components/session'
+// import * as ROLES from '../../constants/authorization-rules'
+// import { withAuthorization } from '../../components/session'
 
 const AdminPage = () => (
   <div>
@@ -10,6 +10,6 @@ const AdminPage = () => (
   </div>
 )
 
-const condition = authUser => authUser && authUser.roles.includes(ROLES.ADMIN)
+// const condition = authUser => authUser && authUser.roles.includes(ROLES.ADMIN)
 
-export default withAuthorization(condition)(AdminPage)
+export default AdminPage

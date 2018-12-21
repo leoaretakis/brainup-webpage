@@ -3,7 +3,7 @@ import { Form, Icon, Input, Checkbox, Alert } from 'antd'
 import Button from 'brainup-components/lib/button'
 import { withRouter, Link } from 'react-router-dom'
 
-import { withFirebase } from '../firebase'
+import login from '../../api/login'
 import * as ROUTES from '../../constants/routes'
 
 import styles from './styles.module.scss'
@@ -15,8 +15,7 @@ class SignInFormBase extends Component {
     e.preventDefault()
     this.props.form.validateFields((err, { email, password }) => {
       if (!err) {
-        this.props.firebase
-          .doSignInWithEmailAndPassword(email, password)
+        login(email, password)
           .then(() => {
             this.props.history.push(ROUTES.HOME)
           })
@@ -96,6 +95,6 @@ class SignInFormBase extends Component {
   }
 }
 
-const SignInForm = withFirebase(withRouter(Form.create()(SignInFormBase)))
+const SignInForm = withRouter(Form.create()(SignInFormBase))
 
 export default SignInForm
